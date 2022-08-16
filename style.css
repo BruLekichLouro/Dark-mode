@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    width: 70%;
+}
+button{
+    border-radius: 8px;
+    border: 2px;
+    border-color: purple;
+    color: beige;
+    background-color: blueviolet;
+    margin: 100px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
