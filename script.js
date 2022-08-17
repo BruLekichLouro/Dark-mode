@@ -1,8 +1,16 @@
-//Atividade dark-mode/light-mode
-function chamaTemaEscuro(){
+function changeMode(){
+   changeClasses();
+}
 
-    document.getElementsByTagName('h1 footer button body').toggle("dark-mode");
-    var mudaTexto = "Dark mode ON";
-    document.getElementsByTagName('button').innerHTML = mudaTexto;
+function changeClasses(){
 
 }
+
+const button = document.getElementById('mode-selector');
+const h1 = document.getElementById('page-tittle');
+const body = document.getElementsByTagName('body')[0];//ele retorna um array então preciso dizer que quero o primeiro elemento [0]
+const footer = document.getElementsByTagName('body')[0];//mesma coisa
+
+
+button.addEventListener('click',changeMode);
+
