@@ -5,13 +5,26 @@ body{
 h1{
     margin-top: 100px;
 }
-button{
+#mode-selector{
     border-radius: 8px;
     border: 2px;
-    border-color: purple;
+    border-color: beige;
     color: beige;
     background-color: blueviolet;
     margin: 50px;
     padding: 10px;
     font-size: 24px;
+   
+}
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.dark-mode{
+    background-color: purple;
+    color: beige;
+    border: 2px;
+    border-color: beige;
 }
